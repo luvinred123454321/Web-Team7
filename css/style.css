@@ -1,0 +1,471 @@
+body {
+  padding: 0 50px;
+  background-image: url(https://r4.wallpaperflare.com/wallpaper/886/80/962/simple-gradient-minimalism-wallpaper-5b265cdd13d15f79c5f4fb796deccc10.jpg);
+  font-family: sans-serif;
+  background-size: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid whitesmoke;
+}
+.navbar-info {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-content {
+  justify-content: center;
+  padding: 5px;
+  margin: 1px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.nav-content:hover {
+  background-color: grey;
+  color: white;
+}
+
+.content {
+  display: flex;
+}
+
+.content-left {
+  box-sizing: border-box;
+  width: 60%;
+}
+
+.content-right {
+  box-sizing: border-box;
+  width: 40%;
+}
+.h1 {
+  color: white;
+  padding-top: 100px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 35px;
+}
+
+.collor {
+  color: white;
+  padding-bottom: 10px;
+}
+
+.img {
+  padding-top: 70px;
+}
+.img-info-left {
+  margin-top: 120px;
+}
+.img-profile-left {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.img-contact-left {
+}
+.img-profile-right {
+  margin-top: 120px;
+}
+.img-info-right {
+  margin-top: 120px;
+  margin-bottom: 100px;
+}
+
+.button {
+  border: 1px solid lightgrey;
+  padding: 10px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.button-nav {
+  text-decoration: none;
+  color: white;
+  margin-left: 5px;
+  padding: 2px;
+}
+.button-nav:hover {
+  background-color: grey;
+  color: white;
+}
+
+.button:hover {
+  background-color: grey;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  margin-top: 50px;
+  border-top: 1px solid whitesmoke;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+}
+
+.logos {
+  justify-content: center;
+  text-align: center;
+  border-radius: 50%;
+  border: 4px solid rgb(0, 153, 255);
+  width: 50px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+.logom {
+  margin-left: auto;
+  margin-top: 0px;
+}
+.footer-left {
+  display: flex;
+  box-sizing: border-box;
+  width: 50%;
+  text-align: center;
+  justify-content: left;
+}
+
+.footer-right {
+  display: flex;
+  box-sizing: border-box;
+  width: 50%;
+  text-align: center;
+  justify-content: right;
+}
+
+.h1-info {
+  color: white;
+  margin-top: 30px;
+  justify-content: center;
+  text-align: center;
+}
+.h1-profile {
+  color: white;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.judul {
+  color: white;
+  justify-content: center;
+  text-align: center;
+}
+.content-info {
+  display: flex;
+  color: white;
+  padding: 5px 10px;
+  justify-content: space-between;
+}
+.content-profile {
+  display: flex;
+  color: white;
+  padding: 5px 10px;
+  justify-content: space-between;
+}
+
+.border {
+  border: 2px solid rgb(80, 200, 255);
+}
+
+.border1 {
+  border: 2px solid rgb(0, 255, 0);
+  padding-bottom: 40px;
+}
+.border2 {
+  border: 2px solid rgb(238, 255, 0);
+  padding-bottom: 40px;
+}
+.border3 {
+  border: 2px solid rgb(162, 0, 255);
+  padding-bottom: 10px;
+}
+
+.left {
+  display: flex;
+  justify-content: left;
+}
+
+.rigt {
+  display: flex;
+  justify-content: right;
+}
+
+.content-left-info {
+  box-sizing: border-box;
+  width: 50%;
+  margin-right: 2px;
+  text-align: justify;
+  flex-direction: column;
+}
+.content-left-profile {
+  box-sizing: border-box;
+  width: 50%;
+  margin-right: 2px;
+  text-align: justify;
+  flex-direction: column;
+}
+.content-right-info {
+  box-sizing: border-box;
+  width: 50%;
+  margin-left: 2px;
+  text-align: justify;
+  flex-direction: column;
+}
+.content-right-profile {
+  box-sizing: border-box;
+  width: 50%;
+  margin-left: 2px;
+  text-align: justify;
+  flex-direction: column;
+}
+.content-left-callus {
+  box-sizing: border-box;
+  width: 60%;
+}
+.content-right-callus {
+  box-sizing: border-box;
+  width: 40%;
+}
+
+.card {
+  justify-content: center;
+  border: 2px solid whitesmoke;
+  width: 100%;
+  margin: 3px;
+}
+
+.card-img-top {
+  justify-content: center;
+  width: 100%;
+}
+
+.card-body {
+  background-color: rgb(68, 0, 255);
+  text-align: center;
+  color: white;
+  padding: 5px;
+}
+.card-body2 {
+  background-color: rgb(0, 255, 42);
+  text-align: center;
+  color: white;
+  padding: 5px;
+}
+.card-body3 {
+  background-color: red;
+  text-align: center;
+  color: white;
+  padding: 5px;
+}
+.card-body4 {
+  background-color: rgb(255, 217, 0);
+  text-align: center;
+  color: white;
+  padding: 5px;
+}
+.card-body5 {
+  background-color: rgb(255, 0, 221);
+  text-align: center;
+  color: white;
+  padding: 5px;
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+  border: 2px solid rgb(0, 183, 255);
+  padding: 40px;
+  color: white;
+  margin-top: 50px;
+}
+
+.input {
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.input1 {
+  margin-top: 10px;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+.label {
+  margin-bottom: 10px;
+}
+.send {
+  border: 2px solid lightgray;
+  padding: 10px;
+  justify-content: end;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: blue;
+}
+
+.send:hover {
+  background-color: rgb(0, 132, 255);
+  color: white;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .nav-content {
+    width: 100%;
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+  .logo {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+  .content-left {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .content-right {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .h1 {
+    padding-top: 0px;
+  }
+
+  .content-left-profile {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    margin: 0px;
+  }
+
+  .img-profile-left {
+    margin-bottom: 0px;
+  }
+
+  .content-right-profile {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .img-profile-right {
+    margin-top: 20px;
+  }
+
+  .content-left-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .content-right-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .img-info-left {
+    margin-top: 20px;
+    border-bottom: 2px solid lightgrey;
+  }
+
+  .img-info-right {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .team {
+    flex-direction: column-reverse;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+  }
+  .card {
+    justify-content: center;
+  }
+  .card-img-top {
+    justify-content: center;
+    width: 50%;
+  }
+  .card-body {
+    margin: 0 140px;
+    justify-content: center;
+  }
+  .card-body2 {
+    margin: 0 140px;
+    justify-content: center;
+  }
+  .card-body3 {
+    margin: 0 140px;
+    justify-content: center;
+  }
+  .card-body4 {
+    margin: 0 140px;
+    justify-content: center;
+  }
+  .card-body5 {
+    margin: 0 140px;
+    justify-content: center;
+  }
+
+  .content-left-callus {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .content-right-callus {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .form {
+    margin-top: 0px;
+  }
+
+  .logom {
+    margin: auto;
+  }
+}
